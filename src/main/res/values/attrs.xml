@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScauTitleBar">
+        <attr name="titleText" format="string"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="showBackItem" format="boolean"/>
+        <attr name="showMoreItem" format="boolean"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="back_arrow_img" format="reference"/>
+        <attr name="bgAlpha" format="float"/>
+        <attr name="showBottomLine" format="boolean"/>
+    </declare-styleable>
+</resources>
