@@ -39,7 +39,7 @@ public class CommonViewFactory {
         });
     }
 
-    private static void register(String tag, Supplier<Class<? extends CommonAssembleView>> supplier) {
+    public static void register(String tag, Supplier<Class<? extends CommonAssembleView>> supplier) {
         if (supplier == null) {
             return;
         }
